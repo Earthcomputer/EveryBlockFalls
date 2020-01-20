@@ -22,7 +22,6 @@
   ],
 
   "depends": {
-    "fabric": "*",
     "minecraft": "1.15.x"
   }
 }

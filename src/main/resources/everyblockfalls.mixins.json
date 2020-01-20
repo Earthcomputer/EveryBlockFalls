@@ -3,6 +3,9 @@
   "package": "net.earthcomputer.everyblockfalls.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinBlockState",
+    "MixinServerWorld",
+    "MixinWorldChunk"
   ],
   "client": [
   ],
