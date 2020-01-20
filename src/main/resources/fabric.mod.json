@@ -1,37 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "everyblockfalls",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Every Block Falls",
+  "description": "Copy of Dream's mod that he totally wrote so people don't have to pay",
   "authors": [
-    "Me!"
+    "Earthcomputer", "Dream ofc"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://earthcomputer.net/",
+    "sources": "https://github.com/Earthcomputer/EveryBlockFalls"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/everyblockfalls/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
   "mixins": [
-    "modid.mixins.json"
+    "everyblockfalls.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.2",
     "fabric": "*",
     "minecraft": "1.15.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
