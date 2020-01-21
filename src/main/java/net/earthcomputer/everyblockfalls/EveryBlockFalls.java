@@ -17,7 +17,12 @@ public class EveryBlockFalls {
                 && !(block instanceof FluidBlock)
                 && !(block instanceof FallingBlock)
                 && block != Blocks.OBSIDIAN
-                && block != Blocks.END_STONE;
+                && block != Blocks.END_STONE
+                && block != Blocks.BEDROCK
+                && block != Blocks.PISTON
+                && block != Blocks.STICKY_PISTON
+                && block != Blocks.PISTON_HEAD
+                && block != Blocks.MOVING_PISTON;
     }
 
     public static boolean shouldUpdateOthers(Block block) {
